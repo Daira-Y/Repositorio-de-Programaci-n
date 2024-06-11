@@ -1,8 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+void trueque(int *x, int *y)
 {
-    printf("Hello world!\n");
-    return 0;
+    int tem;
+    tem = *x;
+    *x = *y;
+    *y = tem;
+}
+int suma(int x)
+{
+    return (x + x);
 }

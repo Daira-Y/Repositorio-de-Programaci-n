@@ -1,8 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+int mad(int);
+void main(void)
 {
-    printf("Hello world!\n");
-    return 0;
+    int NUM, RES;
+    printf("\nIngresa el número: ");
+    scanf("%d", &NUM);
+    RES = mad(NUM);
+    printf("\nEl mayor divisor de %d es: %d", NUM, RES);
+}
+int mad(int N1)
+{
+    int I = (N1 / 2);
+    while (N1 % I)
+        I--;
+    return I;
 }

@@ -1,8 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+int cubo(int);
+void main(void)
 {
-    printf("Hello world!\n");
-    return 0;
+    int I;
+    for (I = 1; I <= 10; I++)
+        printf("\nEl cubo de I es:%d", cubo(I));
+
+}
+int cubo(int K)
+{
+    return (K*K*K);
 }
