@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1722575892 source:c:\users\daira\onedrive\documentos\github\repositorio-de-programaci-n\ejercicios de capitulos\ejercicios del capitulo 9\snake\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
